@@ -1,0 +1,45 @@
+# Environment and virtualenv
+.env
+.venv/
+.env.example
+
+# Python cache and bytecode
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Data and model artifacts
+*.pkl
+*.csv
+data/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+
+# Credentials and keys
+credentials.json
+*.pem
+*.key
+
+# Logs
+*.log
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Additional exclusions
+__pycache__/
+.ipynb_checkpoints
+SMSSpamCollection
+analysis_executed.ipynb
+

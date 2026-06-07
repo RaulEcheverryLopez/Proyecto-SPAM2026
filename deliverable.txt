@@ -1,0 +1,8 @@
+Repository link: <PLACEHOLDER - add your repo URL here>
+
+Included files:
+- README.md
+- requirements.txt
+- app/
+- notebook/analysis.ipynb
+- scripts/copy_dataset.py
