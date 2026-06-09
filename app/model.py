@@ -34,17 +34,6 @@ def load_model() -> Tuple[Any, Any]:
             _model = None
             _model_type = None
 
-    # fallback: transformers pipeline (lazy import to avoid heavy deps)
-    try:
-        from transformers import pipeline
-
-        MODEL_NAME = "Goodmotion/spam-mail-classifier"
-        _model = pipeline("text-classification", model=MODEL_NAME, tokenizer=MODEL_NAME)
-        _model_type = 'hf'
-    except Exception:
-        _model = None
-        _model_type = None
-
     return _model, _model_type
 
 
