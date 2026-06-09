@@ -1,4 +1,4 @@
-Repository link: <PLACEHOLDER - add your repo URL here>
+Repository link: https://github.com/RaulEcheverryLopez/Proyecto-SPAM2026.git
 
 Included files:
 - README.md

@@ -9,7 +9,7 @@ __pycache__/
 .pytest_cache/
 
 # Data and model artifacts
-*.pkl
+# *.pkl  (comentado: baseline_model.pkl es necesario para la app)
 *.csv
 data/
 

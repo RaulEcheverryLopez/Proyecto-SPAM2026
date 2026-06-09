@@ -7,7 +7,7 @@ st.title("SMS Spam Detection — Demo")
 
 st.markdown("Enter an SMS message below and press Predict.")
 
-model, tokenizer = load_model()
+model, model_type = load_model()
 
 text = st.text_area("SMS text", height=150)
 
@@ -15,7 +15,7 @@ if st.button("Predict"):
     if not text.strip():
         st.warning("Please enter a message to classify.")
     else:
-        label, score = predict_text(model, tokenizer, text)
+        label, score = predict_text(model, model_type, text)
         st.write("**Prediction:**", label)
         st.write("**Confidence:** {:.2%}".format(score))
 

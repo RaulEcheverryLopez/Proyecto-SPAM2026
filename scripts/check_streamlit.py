@@ -1,7 +1,7 @@
 import requests
 
 def main():
-    url = 'http://localhost:8502'
+    url = 'http://localhost:8501'
     try:
         r = requests.get(url, timeout=10)
         print('STATUS', r.status_code)
