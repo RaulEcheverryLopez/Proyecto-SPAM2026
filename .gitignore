@@ -42,4 +42,5 @@ __pycache__/
 .ipynb_checkpoints
 SMSSpamCollection
 analysis_executed.ipynb
+uv.lock
 
